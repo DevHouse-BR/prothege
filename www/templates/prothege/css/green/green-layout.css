@@ -1,0 +1,38 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+body.yoopage {
+	background: #8CB44C url(../../images/green/page_bg.png) 0 0 repeat-x;	
+}
+
+div#page-body {
+	background: url(../../images/green/page_bg_img.jpg) 50% 0 no-repeat;	
+}
+
+#top div.mod-separator div.box-3,
+#bottom div.mod-separator div.box-3,
+#top div.mod-separator h3.header,
+#bottom div.mod-separator h3.header {
+	color: #323232;
+}
+
+div.module h3.header span.color { color: #6a9939; }
+div.mod-grey h3.header span.color { color: #ffffff; }
+
+h1 { color: #6a9939; }
+#page h1 a { color: #6a9939; }
+h4 { color: #6a9939; }
+h6 { color: #6a9939; }
+
+div#menu a.active,
+div#menu span.active { color: #6a9939; }
+
+a:link, a:visited { color: #548a2c; }
+a:hover { color: #68b517; }
+
+a.readmore:link,
+a.readmore:visited,
+div.module a.readmore:link,
+div.module a.readmore:visited { color: #548a2c; }
+
+a.readmore:hover,
+div.module a.readmore:hover { color: #68b517; }

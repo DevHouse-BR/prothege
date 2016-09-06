@@ -1,0 +1,16 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+body.yoopage {
+	background: #AB281F url(../../images/red/page_bg.png) 0 0 repeat-x;	
+}
+
+div#page-body {
+	background: url(../../images/red/page_bg_img.jpg) 50% 0 no-repeat;	
+}
+
+#top div.mod-separator div.box-3,
+#bottom div.mod-separator div.box-3,
+#top div.mod-separator h3.header,
+#bottom div.mod-separator h3.header {
+	color: #323232;
+}

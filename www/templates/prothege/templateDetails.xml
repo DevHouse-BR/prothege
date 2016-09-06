@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>prothege</name>
+	<version>1.0</version>
+	<creationDate>2009</creationDate>
+	<author>Prothege</author>
+	<authorEmail>contato@prothege.com.br</authorEmail>
+	<authorUrl>http://www.prothege.com.br</authorUrl>
+    <copyright>Copyright (C) 2007 - 2009</copyright>
+    <license></license>
+	<description><![CDATA[
+<img src="../templates/prothege/template_thumbnail.png" align="right" style="margin: 0px 0px 10px 10px;" />
+
+]]></description>
+	<files>
+		<filename>component.php</filename>
+		<filename>raw.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>apple_touch_icon.png</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>html</folder>
+		<folder>lib</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+	</files>
+	<positions>
+		<position>absolute</position>
+		<position>topmenu</position>
+		<position>search</position>
+		<position>logo</position>
+		<position>menu</position>
+		<position>banner</position>
+		<position>toolbar</position>
+		<position>header</position>
+		<position>breadcrumbs</position>
+		<position>left</position>
+		<position>right</position>
+		<position>footer</position>
+		<position>top</position>
+		<position>top-equal</position>
+		<position>top-goldenratio</position>
+		<position>main-top-equal</position>
+		<position>main-top-goldenratio</position>
+		<position>content-top-equal</position>
+		<position>content-top-goldenratio</position>
+		<position>content-bottom-equal</position>
+		<position>content-bottom-goldenratio</position>
+		<position>main-bottom-equal</position>
+		<position>main-bottom-goldenratio</position>
+		<position>bottom</position>
+		<position>bottom-equal</position>
+		<position>bottom-goldenratio</position>
+		<position>content1</position>
+		<position>content2</position>
+		<position>content3</position>
+		<position>content4</position>
+		<position>content5</position>
+		<position>content6</position>
+		<position>content7</position>
+		<position>content8</position>
+		<position>content9</position>
+		<position>debug</position>
+	</positions>
+	<params>
+		<param name="color" type="list" default="default" label="Template Color" description="Used color for template">
+			<option value="default">White</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+			<option value="mossgreen">Moss Green</option>
+			<option value="turquouise">Turquoise</option>
+			<option value="stripes1">Stripes 1</option>
+			<option value="stripes2">Stripes 2</option>
+			<option value="pink">Pink</option>
+			<option value="black">Black</option>
+			<option value="yellow">Yellow</option>
+			<option value="dove">Dove</option>
+			<option value="halftones">Halftones</option>
+		</param>
+		<param name="width" type="text" size="10" default="860" label="Template Width" description="Set the template width in pixels" />
+		<param name="layout" type="list" default="left" label="Layout Style" description="Left column is aligned to the left/right">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="date" type="radio" default="1" label="Show Date" description="Show/Hide the date">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="loadMootools" type="radio" default="1" label="Enable Mootools" description="Enable/Disable Mootools 1.11 javascript library">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="loadJavascript" type="radio" default="1" label="Enable Javascripts" description="Enable/Disable all the templates javascripts">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="gzip" type="radio" default="0" label="Enable CSS/JS gzip" description="Enable/Disable the templates gzip compression for css and javascripts">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>
